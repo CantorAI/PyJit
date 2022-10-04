@@ -1,0 +1,20 @@
+release:
+ version: 1.5.16
+ release_folder: 'D:\Devops\Release'
+
+docker_container:
+ x86_64: 'manylinux2014-buildmachine'
+ arm64: 'arm64_builder'
+
+
+windows_pythons:
+ -
+  cmd: 'C:\Python38\python.exe'
+  dist: 'cp38'
+ -
+  cmd: 'C:\Python39\python.exe'
+  dist: 'cp39'
+ -
+  cmd: 'C:\Python310\python.exe'
+  dist: 'cp310'
+
