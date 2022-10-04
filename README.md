@@ -1,5 +1,5 @@
 # PyJit
-Embed c++/c#/Java code into Python directly and compile just in time 
+Embed c++[c#/Java, in planning] code into Python directly and compile just in time 
 
 Simple Example:
 ```python
