@@ -2,7 +2,7 @@
 Embed c++/c#/Java code into Python directly and compile just in time 
 
 Simple Example:
-
+```python
 import pyjit
 @pyjit.func(lang="cpp",Debug=True)
 def numpy_test(x:int,y:int):
@@ -17,3 +17,4 @@ def numpy_test(x:int,y:int):
 	"""
 np_a = numpy_test(2,3)
 print(np_a)
+```
